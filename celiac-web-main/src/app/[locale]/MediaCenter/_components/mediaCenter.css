@@ -1,0 +1,13 @@
+.mediaIcons .iconMain {
+    display: none !important;
+}
+.mediaIcons .iconw {
+    display: block;
+}
+.mediaIcons:hover .iconMain {
+    display: block !important;
+}
+
+.mediaIcons:hover .iconw {
+    display: none !important;
+}
