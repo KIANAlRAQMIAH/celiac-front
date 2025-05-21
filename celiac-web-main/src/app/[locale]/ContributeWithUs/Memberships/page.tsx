@@ -7,8 +7,8 @@ import Link from "next/link";
 function MediaCenter() {
     const breadcrumbData = [
         { title: "الرئيسية", link: "/" },
-        { title: "ساهم معنا", link: "/en/ContributeWithUs" },
-        { title: "العضويات", link: "/en/ContributeWithUs/Memberships" },
+        { title: "ساهم معنا", link: "/ar/ContributeWithUs" },
+        { title: "العضويات", link: "/ar/ContributeWithUs/Memberships" },
     ];
     return (
         <div className="bg-[#F9F7F7]" >

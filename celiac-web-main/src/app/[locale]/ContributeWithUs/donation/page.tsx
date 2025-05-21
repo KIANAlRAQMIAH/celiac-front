@@ -5,8 +5,8 @@ export default function Donation() {
     const t = useTranslations("Index");
     const breadcrumbData = [
         { title: "الرئيسية", link: "/" },
-        { title: "ساهم معنا", link: "/en/ContributeWithUs" },
-        { title: "التبرع", link: "/en/ContributeWithUs/donation" },
+        { title: "ساهم معنا", link: "/ar/ContributeWithUs" },
+        { title: "التبرع", link: "/ar/ContributeWithUs/donation" },
     ];
     return (
         <div className="mt-[64px]">

@@ -33,9 +33,9 @@ interface IFormValues {
 const PsychotherapyForm = () => {
     const breadcrumbData = [
         { title: "الرئيسية", link: "/" },
-        { title: "الخدمات", link: "/en/services" },
-        { title: "الأنشطة", link: "/en/services/activities" },
-        { title: "العلاج النفسي", link: "/en/services/activities/Psychotherapy" }
+        { title: "الخدمات", link: "/ar/services" },
+        { title: "الأنشطة", link: "/ar/services/activities" },
+        { title: "العلاج النفسي", link: "/ar/services/activities/Psychotherapy" }
     ];
     const value = (
         <div className="flex justify-center items-center gap-1 ">

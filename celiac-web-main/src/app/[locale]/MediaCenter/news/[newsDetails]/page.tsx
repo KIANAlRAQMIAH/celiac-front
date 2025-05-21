@@ -6,9 +6,9 @@ import { FaXTwitter } from "react-icons/fa6";
 function NewsDetails() {
     const breadcrumbData = [
         { title: "الرئيسية", link: "/" },
-        { title: "المركز الاعلامي", link: "/en/MediaCenter" },
-        { title: "الأخبار", link: "/en/MediaCenter/news" },
-        { title: "تفاصيل الخبر", link: "/en/MediaCenter/news/newsDetails" },
+        { title: "المركز الاعلامي", link: "/ar/MediaCenter" },
+        { title: "الأخبار", link: "/ar/MediaCenter/news" },
+        { title: "تفاصيل الخبر", link: "/ar/MediaCenter/news/newsDetails" },
     ];
     const unsafeHtml = `هو اضطراب مزمن في الجهاز الهضمي يضر بالأمعاء الدقيقة والذي يسبب استجابة الجهاز المناعي بشكل غير طبيعي لبروتين "الغلوتين" (هو بروتين موجود بشكل طبيعي في القمح والشعير، وهو شائع في الخبز والمعكرونة والبسكويت والكعك)؛ مما يؤدي إلى تلف بطانة الأمعاء الدقيقة، تحتوي العديد من المنتجات على الغلوتين (مثل: الأطعمة المعبأة، ومرطبات الشفاه، وأحمر الشفاه، ومعاجين الأسنان، والفيتامينات، والمكملات الغذائية، ويكون في الأدوية بكمية نادرة).
   <strong>السبب:</strong>

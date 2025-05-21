@@ -4,8 +4,8 @@ import XVideoCard from "./_components/XVideoCard";
 function XPlatformSpaces() {
     const breadcrumbData = [
         { title: "الرئيسية", link: "/" },
-        { title: "المركز الاعلامي", link: "/en/MediaCenter" },
-        { title: "مساحات منصة X", link: "/en/MediaCenter/XPlatformSpaces" },
+        { title: "المركز الاعلامي", link: "/ar/MediaCenter" },
+        { title: "مساحات منصة X", link: "/ar/MediaCenter/XPlatformSpaces" },
     ];
     return (
         <div className="bg-[#F7F8FA] pb-[40px]">

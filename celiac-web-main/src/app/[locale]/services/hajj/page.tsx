@@ -10,8 +10,8 @@ export default function Hajj() {
     const t = useTranslations("Index");
     const breadcrumbData = [
         { title: "الرئيسية", link: "/" },
-        { title: "الخدمات", link: "/en/services" },
-        { title: "الحج", link: "/en/services/hajj" }
+        { title: "الخدمات", link: "/ar/services" },
+        { title: "الحج", link: "/ar/services/hajj" }
     ];
     return (
         <div className="">

@@ -38,7 +38,7 @@ const PsychotherapyDetailsCard = ({ free }: IPsychotherapyDetails) => {
                     <p className="text-[16px] text-[#45534E] font-[400] ">
                         هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع.ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً،دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.هذا النص يمكن أن يتم تركيبه على أي تصميم دون مشكلة فلن يبدو وكأنه نص منسوخ، غير منظم، غير منسق، أو حتى غير مفهوم. لأنه مازال نصاً بديلاً ومؤقتاً.
                     </p>
-                    <Link href='/en/services/activities/Psychotherapy/PsychotherapyForm' className='w-max'><button className='bg-[#019867] text-[#FFF] mt-[16px] w-max rounded-[50px] py-2 px-[16px] text-[16px] font-[600]'>تأكيد الاشتراك</button></Link>
+                    <Link href='/ar/services/activities/Psychotherapy/PsychotherapyForm' className='w-max'><button className='bg-[#019867] text-[#FFF] mt-[16px] w-max rounded-[50px] py-2 px-[16px] text-[16px] font-[600]'>تأكيد الاشتراك</button></Link>
                 </div>
                 <div className="flex flex-col  justify-between mr-auto gap-[12px] lg:w-[90%] w-[100%]">
                     <div className=" flex-grow min-h-[200px]"><AppointmentMap /></div>

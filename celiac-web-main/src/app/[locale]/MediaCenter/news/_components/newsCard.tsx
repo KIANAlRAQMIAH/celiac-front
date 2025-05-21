@@ -28,7 +28,7 @@ const NewsCard = ({ id }: INewsCard) => {
                 <p className="my-1 line-clamp-3 text-sm/relaxed text-gray-500 hover:text-white">
                     اقامت جمعية السلياك الركن التوعوي يوم الأربعاء الموافق 2023/5/10 بمناسبة شهر السلياك العالمي في الهيئة الملكية بالسفارات كل الشكر والتقدير لـ بدر سالم القحطاني اخصائي اول التدريب والتطوير ......
                 </p>
-                <Link href={`/en/MediaCenter/news/${id}`} className=' text-center cursor-pointer px-3 text-[16px] py-2 mt-2 w-[100px] rounded-full border border-white text-white bg-[#019867]'>
+                <Link href={`/ar/MediaCenter/news/${id}`} className=' text-center cursor-pointer px-3 text-[16px] py-2 mt-2 w-[100px] rounded-full border border-white text-white bg-[#019867]'>
                     اقرأ المزيد
                 </Link>
             </div>

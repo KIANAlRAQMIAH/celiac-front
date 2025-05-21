@@ -4,8 +4,8 @@ import XVideoCard from "../XPlatformSpaces/_components/XVideoCard";
 function ScientificMeetings() {
     const breadcrumbData = [
         { title: "الرئيسية", link: "/" },
-        { title: "المركز الاعلامي", link: "/en/MediaCenter" },
-        { title: "اللقاءات العلمية", link: "/en/MediaCenter/ScientificMeetings" },
+        { title: "المركز الاعلامي", link: "/ar/MediaCenter" },
+        { title: "اللقاءات العلمية", link: "/ar/MediaCenter/ScientificMeetings" },
     ];
     return (
         <div className="bg-[#F7F8FA] pb-[40px]">

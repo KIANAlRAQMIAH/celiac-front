@@ -86,7 +86,7 @@ const MyReservationsCard = ({ reservation, data, setPage, page }: any) => {
                                 {res.status === 1 ? (
                                     <div className="flex flex-col items-center gap-2 max-w-[220px]">
                                         <button onClick={() => handleCancelClick(res.id)} className='hover:text-[#FFF] text-[#019868d1] w-full hover:bg-[#019868d1] transition text-[16px] font-[600] border-[1px] border-solid border-[#019868d1] rounded-[50px] py-2 px-6'>الغاء الاشتراك</button>
-                                        <Link href={`/en/clinic/${res.clinic.id}`} onClick={() => setClinic(res)} className='hover:text-[#FFF] text-[#019868d1] w-full hover:bg-[#019868d1] transition text-[16px] font-[600] border-[1px] border-solid border-[#019868d1] rounded-[50px] py-2 px-6'>تعديل</Link>
+                                        <Link href={`/ar/clinic/${res.clinic.id}`} onClick={() => setClinic(res)} className='hover:text-[#FFF] text-[#019868d1] w-full hover:bg-[#019868d1] transition text-[16px] font-[600] border-[1px] border-solid border-[#019868d1] rounded-[50px] py-2 px-6'>تعديل</Link>
                                     </div>
                                 ) : (
                                     <div className="flex flex-col items-center gap-2 max-w-[220px]">

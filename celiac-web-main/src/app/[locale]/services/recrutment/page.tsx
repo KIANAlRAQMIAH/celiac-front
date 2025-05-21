@@ -5,8 +5,8 @@ export default function Recrutement() {
   const t = useTranslations("Index");
   const breadcrumbData = [
     { title: "الرئيسية", link: "/en" },
-    { title: "الخدمات", link: "/en/services" },
-    { title: "بطاقة سلياكي", link: "/en/services/recrutment" }
+    { title: "الخدمات", link: "/ar/services" },
+    { title: "بطاقة سلياكي", link: "/ar/services/recrutment" }
   ];
   return (
     <div className="">

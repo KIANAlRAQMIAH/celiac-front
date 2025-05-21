@@ -30,10 +30,10 @@ interface IFormValues {
 const TrainningAndPreparingForm = () => {
     const breadcrumbData = [
         { title: "الرئيسية", link: "/" },
-        { title: "الخدمات", link: "/en/services" },
-        { title: "الأنشطة", link: "/en/services/activities" },
-        { title: "البرامج التدريبية", link: "/en/services/activities/TrainingPrograms" },
-        { title: "تأكيد الاشتراك", link: "/en/services/activities/TrainingPrograms/trainningAndPreparingFrom" }
+        { title: "الخدمات", link: "/ar/services" },
+        { title: "الأنشطة", link: "/ar/services/activities" },
+        { title: "البرامج التدريبية", link: "/ar/services/activities/TrainingPrograms" },
+        { title: "تأكيد الاشتراك", link: "/ar/services/activities/TrainingPrograms/trainningAndPreparingFrom" }
     ];
     const form = useForm<IFormValues>({
         initialValues: {

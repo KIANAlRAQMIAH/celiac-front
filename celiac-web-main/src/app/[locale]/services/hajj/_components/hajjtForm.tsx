@@ -243,7 +243,7 @@ const [fileName, setFileName] = useState<string | null>(null);
                 autoClose: 9000, // Automatically close after 5 seconds
             });
             setToastData({});
-            redirect('/en/services')
+            redirect('/ar/services')
         }
         if (toastData?.error?.data?.status === 409) {
             toast.error(toastData?.error?.data?.errors.message[0], {

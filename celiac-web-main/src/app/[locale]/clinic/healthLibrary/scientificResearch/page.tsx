@@ -11,9 +11,9 @@ function ScientificResearch() {
   }
   const breadcrumbData = [
     { title: "الرئيسية", link: "/" },
-    { title: "العيادة", link: "/en/clinic" },
-    { title: "المكتبة الصحية", link: "/en/clinic/healthLibrary" },
-    { title: "الابحاث العلمية", link: "/en/clinic/healthLibrary/scientificResearch" },
+    { title: "العيادة", link: "/ar/clinic" },
+    { title: "المكتبة الصحية", link: "/ar/clinic/healthLibrary" },
+    { title: "الابحاث العلمية", link: "/ar/clinic/healthLibrary/scientificResearch" },
   ];
   if (isError) {
     return <div>Error loading data</div>

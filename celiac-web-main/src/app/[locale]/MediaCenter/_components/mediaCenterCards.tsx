@@ -37,7 +37,7 @@ const MediaContent = [
         iconW: mc1W,
         head: 'الأخبــــار',
         description: 'اخر واهم الاخبار التى تهمك فى جميع المجالات لتكون على علم بكل ما تريد',
-        url: '/en/MediaCenter/news'
+        url: '/ar/MediaCenter/news'
     },
     {
         id: 2,
@@ -45,7 +45,7 @@ const MediaContent = [
         iconW: mc2W,
         head: 'مقاطع مساحات منصة X',
         description: "اخر واهم الاخبار التى تهمك فى جميع المجالات لتكون على علم بكل ما تريد",
-        url: '/en/MediaCenter/XPlatformSpaces'
+        url: '/ar/MediaCenter/XPlatformSpaces'
     },
     {
         id: 3,
@@ -53,7 +53,7 @@ const MediaContent = [
         iconW: mc3,
         head: 'مقاطع البودكاست',
         description: 'اخر واهم الاخبار التى تهمك فى جميع المجالات لتكون على علم بكل ما تريد',
-        url: '/en/MediaCenter/XPlatformSpaces'
+        url: '/ar/MediaCenter/XPlatformSpaces'
     },
     {
         id: 4,
@@ -61,7 +61,7 @@ const MediaContent = [
         iconW: mc4W,
         head: 'مقاطع اللقاءات العلمية',
         description: 'اخر واهم الاخبار التى تهمك فى جميع المجالات لتكون على علم بكل ما تريد',
-        url: '/en/MediaCenter/ScientificMeetings'
+        url: '/ar/MediaCenter/ScientificMeetings'
     },
     {
         id: 5,
@@ -69,7 +69,7 @@ const MediaContent = [
         iconW: mc5W,
         head: 'سلسلة حلقات الطهي',
         description: 'اخر واهم الاخبار التى تهمك فى جميع المجالات لتكون على علم بكل ما تريد',
-        url: '/en/MediaCenter/CookingRings'
+        url: '/ar/MediaCenter/CookingRings'
     },
     {
         id: 6,
@@ -77,7 +77,7 @@ const MediaContent = [
         iconW: mc6W,
         head: 'المكتبة',
         description: 'اخر واهم الاخبار التى تهمك فى جميع المجالات لتكون على علم بكل ما تريد',
-        url: '/en/MediaCenter/Library'
+        url: '/ar/MediaCenter/Library'
     },
 ]
 function MediaCenterCards() {

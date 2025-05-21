@@ -5,8 +5,8 @@ export default function CooperativeTraining() {
     const t = useTranslations("Index");
     const breadcrumbData = [
         { title: "الرئيسية", link: "/" },
-        { title: "ساهم معنا", link: "/en/ContributeWithUs" },
-        { title: "التدريب التعاوني", link: "/en/ContributeWithUs/CooperativeTraining" },
+        { title: "ساهم معنا", link: "/ar/ContributeWithUs" },
+        { title: "التدريب التعاوني", link: "/ar/ContributeWithUs/CooperativeTraining" },
     ];
     return (
         <div className="">

@@ -6,8 +6,8 @@ export default function FoodBaskets() {
     const t = useTranslations("Index");
     const breadcrumbData = [
         { title: "الرئيسية", link: "/en" },
-        { title: "الخدمات", link: "/en/services" },
-        { title: "السلال الغذائية", link: "/en/services/foodBaskets" }
+        { title: "الخدمات", link: "/ar/services" },
+        { title: "السلال الغذائية", link: "/ar/services/foodBaskets" }
     ];
     return (
         <div className="">

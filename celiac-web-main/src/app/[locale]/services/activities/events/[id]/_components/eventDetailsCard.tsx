@@ -67,7 +67,7 @@ const EventDetailsCard = ({ free }: IPsychotherapyDetails) => {
                         <LuAlarmClock color='#019867' size={25} />
                         <p className='text-[14px] text-[#001F15]'><span className="text-[#869791]">:مدة الدورة</span>: 2 شهر</p>
                     </div>
-                    <Link href='/en/services/activities/events/eventForm' className='w-max'><button className='bg-[#019867] text-[#FFF] mt-[16px] w-max rounded-[50px] py-2 px-[16px] text-[16px] font-[600]'>تأكيد الاشتراك</button></Link>
+                    <Link href='/ar/services/activities/events/eventForm' className='w-max'><button className='bg-[#019867] text-[#FFF] mt-[16px] w-max rounded-[50px] py-2 px-[16px] text-[16px] font-[600]'>تأكيد الاشتراك</button></Link>
                 </div>
                 <div className="flex flex-col  justify-between mr-auto gap-[12px] lg:w-[90%] w-[100%]">
                     <div className=" flex-grow min-h-[200px]"><AppointmentMap /></div>

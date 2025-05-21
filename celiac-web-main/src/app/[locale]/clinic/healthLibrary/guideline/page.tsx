@@ -11,9 +11,9 @@ function Guideline() {
   const fileType2 = data?.data?.filter((item: any) => item?.file_type === 2)
   const breadcrumbData = [
     { title: "الرئيسية", link: "/" },
-    { title: "العيادة", link: "/en/clinic" },
-    { title: "المكتبة الصحية", link: "/en/clinic/healthLibrary" },
-    { title: "الدليل الاسترشادي", link: "/en/clinic/healthLibrary/guideline" },
+    { title: "العيادة", link: "/ar/clinic" },
+    { title: "المكتبة الصحية", link: "/ar/clinic/healthLibrary" },
+    { title: "الدليل الاسترشادي", link: "/ar/clinic/healthLibrary/guideline" },
   ];
   return (
     <>

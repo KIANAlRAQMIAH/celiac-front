@@ -18,7 +18,7 @@ async function ClinicCards({ fetchBmi }: IFetchBmi) {
   return (
     <>
       {/* card1  */}
-      <Link href={"/en/clinic/healthLibrary"}>
+      <Link href={"/ar/clinic/healthLibrary"}>
         <div className=' border p-10 rounded-xl flex  gap-5
       transition-all ease duration-500  
       home-card hover:text-white hover:bg-[#019867] cursor-pointer  '>
@@ -39,7 +39,7 @@ async function ClinicCards({ fetchBmi }: IFetchBmi) {
         </div>
       </Link>
       {/* card2  */}
-      <Link href={"/en/clinic/BookAnAppointment"}>
+      <Link href={"/ar/clinic/BookAnAppointment"}>
         <div className=' border p-10 rounded-xl flex  gap-5
       transition-all ease duration-500  
       home-card hover:text-white hover:bg-[#019867] cursor-pointer  '>
@@ -60,7 +60,7 @@ async function ClinicCards({ fetchBmi }: IFetchBmi) {
         </div>
       </Link>
       {/* card3 */}
-      <Link href={'/en/consultation'} >
+      <Link href={'/ar/consultation'} >
         <div className=' border p-10 rounded-xl flex  gap-5
       transition-all ease duration-500  
       home-card hover:text-white hover:bg-[#019867] cursor-pointer  '>

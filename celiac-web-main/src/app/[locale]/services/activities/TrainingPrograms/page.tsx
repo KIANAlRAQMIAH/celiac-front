@@ -11,10 +11,10 @@ export default function TrainingPrograms() {
     // const t = useTranslations("Index");
     const breadcrumbData = [
         { title: "الرئيسية", link: "/" },
-        { title: "الخدمات", link: "/en/services" },
-        { title: "الأنشطة", link: "/en/services/activities" },
-        { title: "البرامج التدريبية", link: "/en/services/activities/TrainingPrograms" },
-        { title: "تفاصيل البرنامج", link: "/en/services/activities/TrainingPrograms/TrainingProgramDetails" }
+        { title: "الخدمات", link: "/ar/services" },
+        { title: "الأنشطة", link: "/ar/services/activities" },
+        { title: "البرامج التدريبية", link: "/ar/services/activities/TrainingPrograms" },
+        { title: "تفاصيل البرنامج", link: "/ar/services/activities/TrainingPrograms/TrainingProgramDetails" }
     ];
     console.log("data", data)
     return (
@@ -47,7 +47,7 @@ export default function TrainingPrograms() {
                 <div className="grid grid-cols-1 mt-[30px] md:grid-cols-2  gap-4 lg:grid-cols-3 lg:gap-8 ">
                    {data?.data?.map((course:any) =>{
                         return (
-                            <TrainningProgCard key={course.id} formURL='/en/services/activities/TrainingPrograms/0' progType={course.type_label === "Training Course" ? "التدريب والتأهيل":"التدريب علي الطهي"} free={Math.round(course?.price) === 0 ?true:false} course={course} />
+                            <TrainningProgCard key={course.id} formURL='/ar/services/activities/TrainingPrograms/0' progType={course.type_label === "Training Course" ? "التدريب والتأهيل":"التدريب علي الطهي"} free={Math.round(course?.price) === 0 ?true:false} course={course} />
                         )
                    })}
                    

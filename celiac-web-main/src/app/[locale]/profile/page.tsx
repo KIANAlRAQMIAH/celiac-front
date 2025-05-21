@@ -11,7 +11,7 @@ import { IoIosCloseCircleOutline } from 'react-icons/io';
 function Profile() {
     const breadcrumbData = [
         { title: "الرئيسية", link: "/" },
-        { title: "الملف الشخصي", link: "/en/profile" },
+        { title: "الملف الشخصي", link: "/ar/profile" },
     ];
 
     return (

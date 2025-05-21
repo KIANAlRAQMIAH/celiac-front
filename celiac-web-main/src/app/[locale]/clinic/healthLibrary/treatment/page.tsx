@@ -5,9 +5,9 @@ async function Treatment() {
   const fetchAboutDisease = await fetchAboutTreatmentServerAction()
   const breadcrumbData = [
     { title: "الرئيسية", link: "/" },
-    { title: "العيادة", link: "/en/clinic" },
-    { title: "المكتبة الصحية", link: "/en/clinic/healthLibrary" },
-    { title: "العلاج", link: "/en/clinic/healthLibrary/treatment" },
+    { title: "العيادة", link: "/ar/clinic" },
+    { title: "المكتبة الصحية", link: "/ar/clinic/healthLibrary" },
+    { title: "العلاج", link: "/ar/clinic/healthLibrary/treatment" },
   ];
   return (
     <div className="container my-10">

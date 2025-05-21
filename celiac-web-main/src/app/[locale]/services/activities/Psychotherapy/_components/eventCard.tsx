@@ -9,7 +9,7 @@ interface IPsychotherapyDetails {
 }
 const PsychotherapyDetails = ({session }: IPsychotherapyDetails) => {
     return (
-        <Link href='/en/services/activities/Psychotherapy/PsychotherapyDetails' className="bg-[white] rounded-t-[14px] rounded-b-[14px]" >
+        <Link href='/ar/services/activities/Psychotherapy/PsychotherapyDetails' className="bg-[white] rounded-t-[14px] rounded-b-[14px]" >
             <div className="w-full h-[200px] relative rounded-t-[14px] overflow-hidden " >
                 <Image className='w-full h-full object-cover ' src={ac1} alt='1' />
                 {/* <p className='bg-[white] rounded-[31px] p-2 text-[#001F15] absolute top-[10px] left-[10px] font-[500] text-[12px]'>محتوي للبالغين</p> */}

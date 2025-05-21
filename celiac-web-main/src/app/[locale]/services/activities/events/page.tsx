@@ -5,9 +5,9 @@ import EventCard from './_components/eventCard';
 function Page() {
     const breadcrumbData = [
         { title: "الرئيسية", link: "/" },
-        { title: "الخدمات", link: "/en/services" },
-        { title: "الأنشطة", link: "/en/services/activities" },
-        { title: "الفاعليات", link: "/en/services/activities/events" }
+        { title: "الخدمات", link: "/ar/services" },
+        { title: "الأنشطة", link: "/ar/services/activities" },
+        { title: "الفاعليات", link: "/ar/services/activities/events" }
     ];
     return (
 

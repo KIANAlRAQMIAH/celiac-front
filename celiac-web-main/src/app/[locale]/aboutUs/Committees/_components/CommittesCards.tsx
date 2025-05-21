@@ -52,7 +52,7 @@ function CommittesCards() {
             </div>
             <h2 className="font-bold mb-3 mt-4">{committee.name}</h2>
             <p className="text-gray-500 ">{committee.description}</p>
-            <Link href={`/en/aboutUs/Committees/${committee.id}`} className="w-[100%]">
+            <Link href={`/ar/aboutUs/Committees/${committee.id}`} className="w-[100%]">
               <button className="rounded-full border text-[#019867] border-green-600 bg-white py-2 mt-5 w-[90%]">عرض تفاصيل اللجنة</button>
             </Link>
           </div>

@@ -7,8 +7,8 @@ import MembershipCard from './_components/membershipCard';
 function ProfileMembership() {
     const breadcrumbData = [
         { title: "الرئيسية", link: "/" },
-        { title: "الملف الشخصي", link: "/en/profile/" },
-        { title: "العضوية", link: "/en/profile/profileMembership" },
+        { title: "الملف الشخصي", link: "/ar/profile/" },
+        { title: "العضوية", link: "/ar/profile/profileMembership" },
     ];
 
     return (

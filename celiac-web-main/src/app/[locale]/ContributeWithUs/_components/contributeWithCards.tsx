@@ -35,7 +35,7 @@ const MediaContent = [
         iconW: mc1W,
         head: 'العضويات',
         description: 'اخر واهم الاخبار التى تهمك فى جميع المجالات لتكون على علم بكل ما تريد',
-        url: '/en/ContributeWithUs/Memberships'
+        url: '/ar/ContributeWithUs/Memberships'
     },
     {
         id: 2,
@@ -43,7 +43,7 @@ const MediaContent = [
         iconW: mc2W,
         head: 'الشراكة الاستراتيجية',
         description: "اخر واهم الاخبار التى تهمك فى جميع المجالات لتكون على علم بكل ما تريد",
-        url: '/en/ContributeWithUs/StrategicPartnerships'
+        url: '/ar/ContributeWithUs/StrategicPartnerships'
     },
     {
         id: 3,
@@ -51,7 +51,7 @@ const MediaContent = [
         iconW: mc3W,
         head: 'التطوع',
         description: 'اخر واهم الاخبار التى تهمك فى جميع المجالات لتكون على علم بكل ما تريد',
-        url: '/en/ContributeWithUs/Volunteer'
+        url: '/ar/ContributeWithUs/Volunteer'
     },
     {
         id: 4,
@@ -59,7 +59,7 @@ const MediaContent = [
         iconW: mc4W,
         head: 'التدريب التعاوني',
         description: 'اخر واهم الاخبار التى تهمك فى جميع المجالات لتكون على علم بكل ما تريد',
-        url: '/en/ContributeWithUs/Memberships/CooperativeTraining'
+        url: '/ar/ContributeWithUs/Memberships/CooperativeTraining'
     },
     {
         id: 5,
@@ -67,7 +67,7 @@ const MediaContent = [
         iconW: mc5W,
         head: 'التبرع',
         description: 'اخر واهم الاخبار التى تهمك فى جميع المجالات لتكون على علم بكل ما تريد',
-        url: '/en/ContributeWithUs/donation'
+        url: '/ar/ContributeWithUs/donation'
     }
 ]
 function ContributeWithUs() {

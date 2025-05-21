@@ -141,7 +141,7 @@ const dispatch = useDispatch()
             setToastData({});
             setTimeout(() => {
               
-              redirect('/en/services')
+              redirect('/ar/services')
             }, 500);
         }
         if (toastData?.error?.data?.status === 409) {

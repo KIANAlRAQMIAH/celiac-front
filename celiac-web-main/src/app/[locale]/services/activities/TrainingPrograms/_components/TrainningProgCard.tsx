@@ -29,7 +29,7 @@ const TrainningProgCard = ({ free, progType, formURL, course }: IPsychotherapyDe
   const day = courseDate.getDate();
 
   return (
-    <Link href={`/en/services/activities/TrainingPrograms/${course.id}`} className="bg-[white] rounded-t-[14px] rounded-b-[14px]">
+    <Link href={`/ar/services/activities/TrainingPrograms/${course.id}`} className="bg-[white] rounded-t-[14px] rounded-b-[14px]">
       <div className="w-full h-[200px] relative rounded-t-[14px] object-cover overflow-hidden">
         <Image
           fill

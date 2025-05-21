@@ -9,8 +9,8 @@ export default function CeliacCard() {
   const t = useTranslations("Index");
   const breadcrumbData = [
     { title: "الرئيسية", link: "/" },
-    { title: "الخدمات", link: "/en/services" },
-    { title: "بطاقة سلياكي", link: "/en/services/celiacCard" }
+    { title: "الخدمات", link: "/ar/services" },
+    { title: "بطاقة سلياكي", link: "/ar/services/celiacCard" }
   ];
   return (
     <div className="">

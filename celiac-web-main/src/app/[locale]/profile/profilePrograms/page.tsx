@@ -9,8 +9,8 @@ import { IoIosArrowDown } from 'react-icons/io';
 function ProfilePrograms() {
     const breadcrumbData = [
         { title: "الرئيسية", link: "/" },
-        { title: "الملف الشخصي", link: "/en/profile" },
-        { title: "الانشطة والبرامج", link: "/en/profile/ProfilePrograms" },
+        { title: "الملف الشخصي", link: "/ar/profile" },
+        { title: "الانشطة والبرامج", link: "/ar/profile/ProfilePrograms" },
     ];
 
     return (

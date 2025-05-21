@@ -6,9 +6,9 @@ async function Globalinformation() {
   const fetchAboutDisease = await fetchAboutDiseaseServerAction()
   const breadcrumbData = [
     { title: "الرئيسية", link: "/" },
-    { title: "العيادة", link: "/en/clinic" },
-    { title: "المكتبة الصحية", link: "/en/clinic/healthLibrary" },
-    { title: "معلومات عامة عن المرض", link: "/en/clinic/healthLibrary/globaLInformation" },
+    { title: "العيادة", link: "/ar/clinic" },
+    { title: "المكتبة الصحية", link: "/ar/clinic/healthLibrary" },
+    { title: "معلومات عامة عن المرض", link: "/ar/clinic/healthLibrary/globaLInformation" },
   ];
   return (
     <div className="container my-10">

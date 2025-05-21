@@ -4,8 +4,8 @@ import XVideoCard from "../XPlatformSpaces/_components/XVideoCard";
 function CookingRings() {
     const breadcrumbData = [
         { title: "الرئيسية", link: "/" },
-        { title: "المركز الاعلامي", link: "/en/MediaCenter" },
-        { title: "حلقات الطهي", link: "/en/MediaCenter/CookingRings" },
+        { title: "المركز الاعلامي", link: "/ar/MediaCenter" },
+        { title: "حلقات الطهي", link: "/ar/MediaCenter/CookingRings" },
     ];
     return (
         <div className="bg-[#F7F8FA] pb-[40px]">

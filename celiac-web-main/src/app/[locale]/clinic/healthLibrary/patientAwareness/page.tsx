@@ -6,9 +6,9 @@ import TabsPatientAwareness from "./_components/TabsPatientAwareness"
 function patientAwareness() {
   const breadcrumbData = [
     { title: "الرئيسية", link: "/" },
-    { title: "العيادة", link: "/en/clinic" },
-    { title: "المكتبة الصحية", link: "/en/clinic/healthLibrary" },
-    { title: "توعية المرضي", link: "/en/clinic/healthLibrary/patientAwareness" },
+    { title: "العيادة", link: "/ar/clinic" },
+    { title: "المكتبة الصحية", link: "/ar/clinic/healthLibrary" },
+    { title: "توعية المرضي", link: "/ar/clinic/healthLibrary/patientAwareness" },
   ];
   return (
     <div className="container">

@@ -11,7 +11,7 @@ import CartProduct from './_components/cartSingleProduct';
 function Clinic() {
     const breadcrumbData = [
         { title: "الرئيسية", link: "/" },
-        { title: "السلة", link: "/en/cart" },
+        { title: "السلة", link: "/ar/cart" },
     ];
 
     return (

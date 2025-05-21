@@ -5,7 +5,7 @@ import MediaCenterCards from "./_components/mediaCenterCards";
 function MediaCenter() {
     const breadcrumbData = [
         { title: "الرئيسية", link: "/" },
-        { title: "المركز الاعلامي", link: "/en/MediaCenter" },
+        { title: "المركز الاعلامي", link: "/ar/MediaCenter" },
     ];
     return (
         <div className="container" >

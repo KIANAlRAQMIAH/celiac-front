@@ -29,10 +29,10 @@ interface IFormValues {
 const EventForm = () => {
     const breadcrumbData = [
         { title: "الرئيسية", link: "/" },
-        { title: "الخدمات", link: "/en/services" },
-        { title: "الأنشطة", link: "/en/services/activities" },
-        { title: "الفاعليات", link: "/en/services/activities/events" },
-        { title: "تأكيد الاشتراك", link: "/en/services/activities/events/eventForm" }
+        { title: "الخدمات", link: "/ar/services" },
+        { title: "الأنشطة", link: "/ar/services/activities" },
+        { title: "الفاعليات", link: "/ar/services/activities/events" },
+        { title: "تأكيد الاشتراك", link: "/ar/services/activities/events/eventForm" }
     ];
     const form = useForm<IFormValues>({
         initialValues: {

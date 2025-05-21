@@ -134,7 +134,7 @@ const AppointmentForm = ({
       });
       setToastData({});
       setFormData(initialFormData);
-      redirect("/en/profile/myReservations");
+      redirect("/ar/profile/myReservations");
     }
 
     if (toastData?.error?.status === 422) {

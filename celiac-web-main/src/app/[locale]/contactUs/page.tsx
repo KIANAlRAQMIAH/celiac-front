@@ -7,7 +7,7 @@ import { FaLocationDot } from "react-icons/fa6";
 function MyReservations() {
     const breadcrumbData = [
         { title: "الرئيسية", link: "/" },
-        { title: "تواصل معنا", link: "/en/contactUs/" },
+        { title: "تواصل معنا", link: "/ar/contactUs/" },
     ];
 
     return (

@@ -16,7 +16,7 @@ async function Clinic() {
   const fetchBmi = await fetchBmiServerAction()
   const breadcrumbData = [
     { title: "الرئيسية", link: "/" },
-    { title: "العيادة", link: "/en/clinic" },
+    { title: "العيادة", link: "/ar/clinic" },
   ];
 
   return (

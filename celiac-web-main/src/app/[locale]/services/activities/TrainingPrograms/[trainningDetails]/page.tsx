@@ -11,15 +11,15 @@ import { useGetSingleCourseQuery } from "@/api/serveces";
 export default function Trainningdetails({ free, params }: any) {
   const breadcrumbData = [
     { title: "الرئيسية", link: "/" },
-    { title: "الخدمات", link: "/en/services" },
-    { title: "الأنشطة", link: "/en/services/activities" },
+    { title: "الخدمات", link: "/ar/services" },
+    { title: "الأنشطة", link: "/ar/services/activities" },
     {
       title: "البرامج التدريبية",
-      link: "/en/services/activities/TrainingPrograms",
+      link: "/ar/services/activities/TrainingPrograms",
     },
     {
       title: "تفاصيل البرنامج",
-      link: "/en/services/activities/TrainingPrograms/trainningDetails",
+      link: "/ar/services/activities/TrainingPrograms/trainningDetails",
     },
   ];
 
@@ -105,7 +105,7 @@ export default function Trainningdetails({ free, params }: any) {
           </div>
 
           <Link
-            href={`/en/services/activities/TrainingPrograms/${
+            href={`/ar/services/activities/TrainingPrograms/${
               params.trainningDetails == "0"
                 ? "trainningAndPreparingFrom"
                 : "trainningForm"

@@ -6,9 +6,9 @@ export default function JoinMembership() {
     const t = useTranslations("Index");
     const breadcrumbData = [
         { title: "الرئيسية", link: "/" },
-        { title: "ساهم معنا", link: "/en/ContributeWithUs" },
-        { title: "العضويات", link: "/en/ContributeWithUs/Memberships" },
-        { title: "الانضمام الى العضوية", link: "/en/ContributeWithUs/Memberships/joinMembership" },
+        { title: "ساهم معنا", link: "/ar/ContributeWithUs" },
+        { title: "العضويات", link: "/ar/ContributeWithUs/Memberships" },
+        { title: "الانضمام الى العضوية", link: "/ar/ContributeWithUs/Memberships/joinMembership" },
     ];
     return (
         <div className="">

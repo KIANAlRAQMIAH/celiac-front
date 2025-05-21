@@ -117,7 +117,7 @@ function Navbar() {
                     {isOpen && (
                       <div className="dropdown-menu absolute right-0  w-48 text-center bg-white border border-gray-200 rounded shadow-lg z-10">
                         <Link
-                          href="/en/aboutUs/AboutAssociation"
+                          href="/ar/aboutUs/AboutAssociation"
                           className={`    block border-b border-gray-200 px-4 py-2 text-sm hover:bg-[#9A9A3A]
                          ${pathname.includes("AboutAssociation")
                               ? " bg-[#9A9A3A] "
@@ -129,7 +129,7 @@ function Navbar() {
                         </Link>
 
                         <Link
-                          href="/en/aboutUs/boardMembers"
+                          href="/ar/aboutUs/boardMembers"
 
                           className={`block px-4  border-b border-gray-200  py-2 text-sm text-gray-700 hover:bg-[#9A9A3A]
                           ${pathname.includes('boardMembers') ? ' bg-[#9A9A3A] ' : 'text-gray-700'}`}
@@ -138,7 +138,7 @@ function Navbar() {
                           مجلس الادارة
                         </Link>
                         <Link
-                          href="/en/aboutUs/generalAssembly"
+                          href="/ar/aboutUs/generalAssembly"
                           className={`block  border-b border-gray-200  px-4 py-2 text-sm text-gray-700 hover:bg-[#9A9A3A]
                           ${pathname.includes('generalAssembly') ? ' bg-[#9A9A3A] ' : 'text-gray-700'} `}
 
@@ -146,7 +146,7 @@ function Navbar() {
                           الجمعية العمومية
                         </Link>
                         <Link
-                          href="/en/aboutUs/organizationChart"
+                          href="/ar/aboutUs/organizationChart"
                           className={`block  border-b border-gray-200  px-4 py-2 text-sm text-gray-700 hover:bg-[#9A9A3A]
                           ${pathname.includes('organizationChart') ? ' bg-[#9A9A3A] ' : 'text-gray-700'}`}
 
@@ -154,7 +154,7 @@ function Navbar() {
                           الهيكل التنظيمي
                         </Link>
                         <Link
-                          href="/en/aboutUs/Committees"
+                          href="/ar/aboutUs/Committees"
                           className={` block   border-b border-gray-200 px-4 py-2 text-sm text-gray-700 hover:bg-[#9A9A3A]
                           ${pathname.includes('Committees') ? ' bg-[#9A9A3A] ' : 'text-gray-700'}`}
 
@@ -162,7 +162,7 @@ function Navbar() {
                           اللجان
                         </Link>
                         <Link
-                          href="/en/aboutUs/GovAndTrans"
+                          href="/ar/aboutUs/GovAndTrans"
                           className={`block  border-b border-gray-200 px-4 py-2 text-sm text-gray-700 hover:bg-[#9A9A3A]
                           ${pathname.includes('GovAndTrans') ? ' bg-[#9A9A3A] ' : 'text-gray-700'}`}
 
@@ -177,7 +177,7 @@ function Navbar() {
                   <li>
                     <Link
                       className={` ${pathname.includes('/clinic') ? 'font-extrabold text-green-600 ' : 'text-black'}    text-black transition hover:text-[#019867]`}
-                      href="/en/clinic"
+                      href="/ar/clinic"
                     >
                       العيادة
                     </Link>
@@ -185,7 +185,7 @@ function Navbar() {
                   <li>
                     <Link
                       className="text-black transition hover:text-[#019867]"
-                      href="/en/services"
+                      href="/ar/services"
                     >
                       خدماتنا
                     </Link>
@@ -193,7 +193,7 @@ function Navbar() {
                   <li>
                     <Link
                       className="text-black transition hover:text-[#019867]"
-                      href="/en/MediaCenter"
+                      href="/ar/MediaCenter"
                     >
                       المركز الاعلامى
                     </Link>
@@ -201,7 +201,7 @@ function Navbar() {
                   <li>
                     <Link
                       className="text-black transition hover:text-[#019867]"
-                      href="/en/ContributeWithUs"
+                      href="/ar/ContributeWithUs"
                     >
                       ساهم معنا
                     </Link>
@@ -209,7 +209,7 @@ function Navbar() {
                   <li>
                     <Link
                       className="text-black transition hover:text-[#019867]"
-                      href="/en/contactUs"
+                      href="/ar/contactUs"
                     >
                       تواصل معنا
                     </Link>
@@ -251,7 +251,7 @@ function Navbar() {
                         <ul className="list-disc  my-6  text-white ">
                           <li className={isBranchVisible ? 'fadeInLi' : ''}>
                             <Link
-                              href="/en/aboutUs/AboutAssociation"
+                              href="/ar/aboutUs/AboutAssociation"
                               className="block border-b border-white px-4 py-2 text-sm"
                               onClick={closeModelActionMenu}
                             >
@@ -261,7 +261,7 @@ function Navbar() {
 
                           <li className={isBranchVisible ? 'fadeInLi' : ''}>
                             <Link
-                              href="/en/aboutUs/boardMembers"
+                              href="/ar/aboutUs/boardMembers"
                               className="block border-b border-white px-4 py-2 text-sm"
                               onClick={closeModelActionMenu}
                             >
@@ -271,7 +271,7 @@ function Navbar() {
 
                           <li className={isBranchVisible ? 'fadeInLi' : ''}>
                             <Link
-                              href="/en/aboutUs/generalAssembly"
+                              href="/ar/aboutUs/generalAssembly"
                               className="block border-b border-white px-4 py-2 text-sm"
                               onClick={closeModelActionMenu}
                             >
@@ -282,7 +282,7 @@ function Navbar() {
 
                           <li className={isBranchVisible ? 'fadeInLi' : ''}>
                             <Link
-                              href="/en/aboutUs/organizationChart"
+                              href="/ar/aboutUs/organizationChart"
                               className="block border-b border-white px-4 py-2 text-sm"
                               onClick={closeModelActionMenu}
                             >
@@ -292,7 +292,7 @@ function Navbar() {
 
                           <li className={isBranchVisible ? 'fadeInLi' : ''}>
                             <Link
-                              href="/en/aboutUs/Committees"
+                              href="/ar/aboutUs/Committees"
                               className="block border-b border-white px-4 py-2 text-sm"
                               onClick={closeModelActionMenu}
                             >
@@ -303,7 +303,7 @@ function Navbar() {
 
                           <li className={isBranchVisible ? 'fadeInLi' : ''}>
                             <Link
-                              href="/en/aboutUs/GovAndTrans"
+                              href="/ar/aboutUs/GovAndTrans"
                               className="block border-b border-white px-4 py-2 text-sm"
                               onClick={closeModelActionMenu}
                             >
@@ -315,22 +315,22 @@ function Navbar() {
                       )}
                     </div>
                   </li>
-                  <li><Link onClick={closeModelActionMenu} href='/en/clinic' >العيادة</Link></li>
-                  <li><Link onClick={closeModelActionMenu} href='/en/services' >خدماتنا</Link></li>
-                  <li><Link onClick={closeModelActionMenu} href='/en/MediaCenter' >المركز الاعلامى</Link></li>
-                  <li><Link onClick={closeModelActionMenu} href='/en/ContributeWithUs' >ساهم معنا</Link></li>
-                  <li><Link onClick={closeModelActionMenu} href='/en/contactUs' >تواصل معنا</Link></li>
+                  <li><Link onClick={closeModelActionMenu} href='/ar/clinic' >العيادة</Link></li>
+                  <li><Link onClick={closeModelActionMenu} href='/ar/services' >خدماتنا</Link></li>
+                  <li><Link onClick={closeModelActionMenu} href='/ar/MediaCenter' >المركز الاعلامى</Link></li>
+                  <li><Link onClick={closeModelActionMenu} href='/ar/ContributeWithUs' >ساهم معنا</Link></li>
+                  <li><Link onClick={closeModelActionMenu} href='/ar/contactUs' >تواصل معنا</Link></li>
                 </ul>
               </CustomModalMenue>
             </div>
             {
               userToken ? (
                 <div className="flex items-center gap-4">
-                  <Link href='/en/cart' className="block sm:hidden xs:hidden md:flex lg:flex items-center relative">
+                  <Link href='/ar/cart' className="block sm:hidden xs:hidden md:flex lg:flex items-center relative">
                     <IoCartOutline className="media text-[24px]" />
                     {cartData?.data?.donations_count > 0 && <span className="  w-5 h-5 rounded-full flex items-center justify-center bg-[#019867] text-white absolute top-[-8px] text-[14px] font-bold start-[10px]">{cartData?.data?.donations_count}</span>}
                   </Link>
-                  <Link href='/en/profile' className="block sm:hidden xs:hidden md:flex lg:flex items-center">
+                  <Link href='/ar/profile' className="block sm:hidden xs:hidden md:flex lg:flex items-center">
                     <CiUser className="media text-[24px]" />
                   </Link>
                   <div className="block sm:hidden xs:hidden md:flex lg:flex items-center">

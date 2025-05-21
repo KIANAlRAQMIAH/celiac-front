@@ -34,35 +34,35 @@ function AllServices() {
         {
             icon: Cicon,
             iconW: CiconW,
-            link: '/en/services/celiacCard',
+            link: '/ar/services/celiacCard',
             head: 'بطاقة سليـــــاكي',
             para: 'رفع مستوى الوعي, المساهمة في توفير بيئة صحية لمرضى السلياك, تعزيز ودعم الأبحاث العلمية والتطويرية, و دعم وتحفيز المشاريع الصغيرة في مجال السلياك'
         },
         {
             icon: hire,
             iconW: hireW,
-            link: '/en/services/recrutment',
+            link: '/ar/services/recrutment',
             head: 'التــــــوظيف',
             para: 'رفع مستوى الوعي, المساهمة في توفير بيئة صحية لمرضى السلياك, تعزيز ودعم الأبحاث العلمية والتطويرية, و دعم وتحفيز المشاريع الصغيرة في مجال السلياك'
         },
         {
             icon: food,
             iconW: foodW,
-            link: '/en/services/foodBaskets',
+            link: '/ar/services/foodBaskets',
             head: 'السلال الغذائيـــــة',
             para: 'رفع مستوى الوعي, المساهمة في توفير بيئة صحية لمرضى السلياك, تعزيز ودعم الأبحاث العلمية والتطويرية, و دعم وتحفيز المشاريع الصغيرة في مجال السلياك'
         },
         {
             icon: hig,
             iconW: higW,
-            link: '/en/services/hajj',
+            link: '/ar/services/hajj',
             head: 'الحـــــج',
             para: 'رفع مستوى الوعي, المساهمة في توفير بيئة صحية لمرضى السلياك, تعزيز ودعم الأبحاث العلمية والتطويرية, و دعم وتحفيز المشاريع الصغيرة في مجال السلياك'
         },
         {
             icon: prog,
             iconW: progW,
-            link: '/en/services/activities',
+            link: '/ar/services/activities',
             head: 'الأنشطة والبرامــــــج',
             para: 'رفع مستوى الوعي, المساهمة في توفير بيئة صحية لمرضى السلياك, تعزيز ودعم الأبحاث العلمية والتطويرية, و دعم وتحفيز المشاريع الصغيرة في مجال السلياك'
         },

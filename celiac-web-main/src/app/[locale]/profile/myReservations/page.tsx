@@ -11,8 +11,8 @@ import { useGetReservationsQuery } from '@/api/profileApiSlice';
 
 const breadcrumbData = [
     { title: "الرئيسية", link: "/" },
-    { title: "الملف الشخصي", link: "/en/profile/" },
-    { title: "حجوزاتي", link: "/en/profile/myReservations" },
+    { title: "الملف الشخصي", link: "/ar/profile/" },
+    { title: "حجوزاتي", link: "/ar/profile/myReservations" },
 ];
 
 function MyReservations() {

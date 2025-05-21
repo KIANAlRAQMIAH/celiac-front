@@ -160,7 +160,7 @@ const dispatch = useDispatch()
                 autoClose: 9000, // Automatically close after 5 seconds
             });
             setToastData({});
-            redirect('/en/ContributeWithUs')
+            redirect('/ar/ContributeWithUs')
         }
         if (toastData?.error?.status === 422) {
             toast.error(toastData?.error?.data?.message, {

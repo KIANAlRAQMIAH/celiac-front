@@ -5,8 +5,8 @@ export default function Volunteer() {
     const t = useTranslations("Index");
     const breadcrumbData = [
         { title: "الرئيسية", link: "/" },
-        { title: "ساهم معنا", link: "/en/ContributeWithUs" },
-        { title: "التطوع", link: "/en/ContributeWithUs/Volunteer" },
+        { title: "ساهم معنا", link: "/ar/ContributeWithUs" },
+        { title: "التطوع", link: "/ar/ContributeWithUs/Volunteer" },
     ];
     return (
         <div className="">

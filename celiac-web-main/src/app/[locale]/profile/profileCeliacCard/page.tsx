@@ -10,8 +10,8 @@ import { MdOutlineFileDownload } from 'react-icons/md';
 function Profile() {
     const breadcrumbData = [
         { title: "الرئيسية", link: "/" },
-        { title: "الملف الشخصي", link: "/en/profile" },
-        { title: "بطاقة السلياكي", link: "/en/profile/profileCeliacCard" },
+        { title: "الملف الشخصي", link: "/ar/profile" },
+        { title: "بطاقة السلياكي", link: "/ar/profile/profileCeliacCard" },
     ];
 
     return (

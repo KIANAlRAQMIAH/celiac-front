@@ -6,8 +6,8 @@ import NewsCard from './_components/newsCard';
 function LatestHomeCard({ readMore = false, data }: any) {
     const breadcrumbData = [
         { title: "الرئيسية", link: "/" },
-        { title: "المركز الاعلامي", link: "/en/MediaCenter" },
-        { title: "الاخبار", link: "/en/MediaCenter/news" },
+        { title: "المركز الاعلامي", link: "/ar/MediaCenter" },
+        { title: "الاخبار", link: "/ar/MediaCenter/news" },
     ];
     return (
         <div className="container mb-[40px]">

@@ -6,7 +6,7 @@ import ContributeWithUs from "./_components/contributeWithCards";
 function MediaCenter() {
     const breadcrumbData = [
         { title: "الرئيسية", link: "/" },
-        { title: "ساهم معنا", link: "/en/ContributeWithUs" },
+        { title: "ساهم معنا", link: "/ar/ContributeWithUs" },
     ];
     return (
         <div className="container w-full mx-auto" >

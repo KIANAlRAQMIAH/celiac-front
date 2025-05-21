@@ -12,8 +12,8 @@ export default function StrategicPartnerships() {//@ts-ignore
     const t = useTranslations("Index");
     const breadcrumbData = [
         { title: "الرئيسية", link: "/" },
-        { title: "ساهم معنا", link: "/en/ContributeWithUs" },
-        { title: "الشراكات الاستراتيجية", link: "/en/ContributeWithUs/StrategicPartnerships" },
+        { title: "ساهم معنا", link: "/ar/ContributeWithUs" },
+        { title: "الشراكات الاستراتيجية", link: "/ar/ContributeWithUs/StrategicPartnerships" },
     ];
     return (
         <div className="">

@@ -143,7 +143,7 @@ const RecrutementForm = () => {
         autoClose: 9000, 
       });
       setToastData({});
-      redirect('/en/services')
+      redirect('/ar/services')
     }
     if (toastData?.error?.data?.status === 409) {
       toast.error(toastData?.error?.data?.errors.message[0], {
