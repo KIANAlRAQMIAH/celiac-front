@@ -28,14 +28,14 @@ const MajorsCard = (props: IMajorsCard) => {
         <div className="bg-[#0198682a] flex flex-col justify-center items-center  w-[60px] h-[60px] rounded-[50%]">
           <Image className="w-[70%]" alt="icon" src={ic1} />
         </div>
-        <p className="text-[#001F15] font-bold text-[16px]">{props?.name} </p>
-        <div className="flex justify-between items-center">
-          <div className=" flex justify-center items-center gap-2">
+        <p className="text-[#001F15] font-bold text-[16px] my-2">{props?.name} </p>
+        <div className="flex justify-end items-center">
+          {/* <div className=" flex justify-center items-center gap-2">
             <Image alt="icon" src={ic5} />
             <p>{props?.doctors} طبيب</p>
             <Image alt="icon" src={ic6} />
             <p>{props.duration} دقيقة</p>
-          </div>
+          </div> */}
           <div
             onClick={() =>
               props.handleSelectedClinic(
