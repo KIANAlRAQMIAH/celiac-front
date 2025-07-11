@@ -329,10 +329,12 @@ const BoardDirectors = () => {
                                                         <option disabled value="">
                                                             اختر نوع الوظيفه
                                                         </option>
-                                                        <option value="1">رئيس مجلس الادارة</option>
-                                                        <option value="2">مدير مالى</option>
-                                                        <option value="3">مدير تنفيذى</option>
-                                                        <option value="4">مدير المشروع</option>
+                                                        <option value="1"> عضو مؤسس، رئيس مجلس الإدارة</option>
+                                                        <option value="2">عضو مؤسس</option>
+                                                        <option value="3">عضو مؤسس، عضو مجلس الإدارة</option>
+                                                        <option value="4">عضو مؤسس، نائب رئيس مجلس الإدارة</option>
+                                                        <option value="5">عضو عامل، عضو مجلس الإدارة</option>
+                                                        <option value="6">عضو عامل</option>
                                                     </select>
                                                 </div>
                                                 <div>
