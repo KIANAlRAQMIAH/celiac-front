@@ -82,7 +82,7 @@ const ConsultationForm = () => {
                   <div className="flex flex-col gap-[32px] text-start">
                     <div className="flex justify-center text-center">
                       <h6 className="w-[80%]">
-                        الآن يمكنك طلب استشارة في أي تخصص تريده بكل سهولة وسيصلك الرد في أقرب وقت
+                      يسرّنا استقبال طلبات الاستشارة الصحية،  وسيتم تزويدكم بالرد في أقرب وقت ممكن من قبل المختصين
                       </h6>
                     </div>
                     <TextInput

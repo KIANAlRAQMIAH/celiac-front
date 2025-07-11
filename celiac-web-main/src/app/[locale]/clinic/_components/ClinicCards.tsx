@@ -70,7 +70,7 @@ async function ClinicCards({ fetchBmi }: IFetchBmi) {
           </svg>
           <div className='flex flex-col  justify-start  items-start gap-4 mr-5'>
             <h3 className='font-extrabold'>استشـــارة طبية</h3>
-            <p className='text-gray-500'>احصل على استشارتك الطبية وانت فى مكانك من افضل الاطباء فالتخصص الذي تريدة</p>
+            <p className='text-gray-500'>احصل على استشارتك الطبية عن بُعد مع نخبة من الأطباء المختصين</p>
             <div className="flex justify-center items-center text-[#019867]">
               <p>استشارة جديدة</p>
               <GoArrowUpLeft />
