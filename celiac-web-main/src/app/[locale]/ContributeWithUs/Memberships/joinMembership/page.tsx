@@ -13,7 +13,7 @@ export default function JoinMembership() {
     return (
         <div className="">
             <div className="bg-[#F4F9F7]">
-                <div className=" container mx-0 pb-[50px]">
+                <div className=" container mx-auto pb-[50px]">
                     <Breadcrumb items={breadcrumbData} />
 
 

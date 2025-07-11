@@ -322,7 +322,7 @@ const VolunteershipForm = () => {
                                         onChange={(value: any) => setFormData({ ...formData, volunteering_field: value })}
                                         label=" مجال التطوع"
                                         placeholder="اختر"
-                                        data={["الادارى", "الحملات", "المحتوى العلمى", "العياده"]}
+                                        data={[ "عام", "صحي"]}
                                     />
                                     {errors.volunteering_field && (
                                         <p className="text-[red] font-normal">
