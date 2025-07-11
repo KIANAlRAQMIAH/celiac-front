@@ -15,13 +15,13 @@ function HealthLibrary() {
       <Breadcrumb items={breadcrumbData} />
       <div className="grid grid-cols-1 md:grid-cols-2  gap-4 lg:grid-cols-3 lg:gap-8  mt-8 mb-20">
 
-        <HealthLibraryCard title={"الأبحــــاث العلمية"} description={"نعرض عليكم جميع الابحاث العلمية التى تم اجراؤها لمرض السلياك وطرق الوقاية منه , وكيفية التعامل مع مصابي السلياك من الاطفال والبالغين"} cardLink={"/ar/clinic/healthLibrary/scientificResearch"} />
+        <HealthLibraryCard title={"الأبحــــاث العلمية"} description={"تحتوي على دراسات وأبحاث علمية محكّمة تتعلق بمرض السلياك، تشمل آخر ما توصل إليه الطب من نتائج وابتكارات في التشخيص والعلاج والتعامل الغذائي."} cardLink={"/ar/clinic/healthLibrary/scientificResearch"} />
         <HealthLibraryCard title={"العــــلاج"} description={"هنا تجد العلاجات المتوفرة لمرض السلياك وتم اتخاذ هذة المعلومات من المعمل الصحي بالمملكة الخاص بمرضي السلياك عن طريق افضل الاطباء"} cardLink={"/ar/clinic/healthLibrary/treatment"} />
-        <HealthLibraryCard title={"معلومات عامة عن المرض"} description={'نعرض عليكم معلومات عامة عن مرض السلياكوطرق الوقاية منه وطرق التعامل مع مصابي السليك وتجنب دخولهم فى اي من المشاكل الممكنة'} cardLink={"/ar/clinic/healthLibrary/globaLInformation"} />
-        <HealthLibraryCard title={"الدليل الاسترشادي"} description={'هنا تجد العلاجات المتوفرة لمرض السلياك وتم اتخاذ هذة المعلومات من المعمل الصحي بالمملكة الخاص بمرضي السلياك عن طريق افضل الاطباء'} cardLink={'/ar/clinic/healthLibrary/guideline'} />
+        <HealthLibraryCard title={"معلومات عامة عن المرض"} description={'تقدم شرحًا مبسطًا وشاملًا حول مرض السلياك، يشمل التعريف بالمرض، أسبابه، أعراضه، طرق التشخيص، والمضاعفات المحتملة'} cardLink={"/ar/clinic/healthLibrary/globaLInformation"} />
+        <HealthLibraryCard title={"الدليل الاسترشادي"} description={'يُساعد مرضى السلياك على فهم خطوات وآلية التقديم للاستفادة من برامج الدعم المتاحة'} cardLink={'/ar/clinic/healthLibrary/guideline'} />
         <HealthLibraryCard title={"قسم توعية المرضي"} description={'هنا تجد العلاجات المتوفرة لمرض السلياك وتم اتخاذ هذة المعلومات من المعمل الصحي بالمملكة الخاص بمرضي السلياك عن طريق افضل الاطباء'} cardLink={'/ar/clinic/healthLibrary/patientAwareness'} />
-        <HealthLibraryCard title={'الكتب المترجمة'} description={'هنا مجموعة من الكتب الخاصة بمرض السلياك وطرق الوقاية منه .... تجدون عدد من الكتب بأكثر من لغة لتوصيل استفادة شاملة قدر المستطاع'} cardLink={'/ar/clinic/healthLibrary/translatedBooks'} />
-        <HealthLibraryCard title={'الأسئلة الشائعة'} description={'وفرنا لك عدد من الاسالة التى يمكن لك ان تحتاجها فيما يخص كل الاجابات الخاصة بمرض السلياك يمكنك الاطلاع عليها والحصول على كل الاجابابت الازمة'} cardLink={'/ar/clinic/healthLibrary/commonQuestions'} />
+        <HealthLibraryCard title={'الكتب المترجمة'} description={'توفر نسخًا مترجمة إلى اللغة العربية من كتب ومراجع علمية موثوقة تتناول الجوانب المختلفة لمرض السلياك، مما يسهم في تعزيز المعرفة الطبية لدى القارئ العربي'} cardLink={'/ar/clinic/healthLibrary/translatedBooks'} />
+        <HealthLibraryCard title={'الأسئلة الشائعة'} description={'تتضمن مجموعة من الأسئلة المتكررة التي يطرحها المرضى وأسرهم، مع إجابات موثوقة ومبسطة تساعد على إزالة اللبس وتقديم المعلومات بشكل مباشر'} cardLink={'/ar/clinic/healthLibrary/commonQuestions'} />
 
       </div>
     </div>

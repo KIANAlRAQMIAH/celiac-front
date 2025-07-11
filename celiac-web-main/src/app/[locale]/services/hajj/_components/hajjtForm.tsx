@@ -704,7 +704,7 @@ formDataa.append('file', file || new Blob()); // Provide a default empty Blob if
                 { fileType ===null ?(  
                     <>
                  <GrUploadOption size={35} color="#019867" />
-                  <p className="text-[12px] text-[#45534E] font-[400]">من فضلك ارفق الملف الطبي الخاص بحالة مرضك بالسيلياك
+                  <p className="text-[12px] text-[#45534E] font-[400]">ارفاق تصريح الحج
                   </p>
                   <p className="text-[12px] text-[#45534e74] font-[400]">.pdf, png, jpg, jpeg
                   </p> 

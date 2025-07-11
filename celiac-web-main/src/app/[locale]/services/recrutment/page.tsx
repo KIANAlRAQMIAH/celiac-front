@@ -17,7 +17,7 @@ export default function Recrutement() {
 
           <div className=" container flex flex-col w-full  justify-center items-center">
             <h2 className="text-[#001F15] text-[20px] font-[600] ">خدمة التــــــوظيف</h2>
-            <h2 className="text-[#001F15] text-[16px] font-[600] mb-5 ">أملئ الفورم الموجودة بالاسفل لطلب الحصول على بطاقة سلياكي</h2>
+            <h2 className="text-[#444444] text-[16px] font-[300] mb-5 ">املأ النموذج أدناه لتقديم طلب التوظيف</h2>
             <RecrutementForm />
           </div>
         </div>

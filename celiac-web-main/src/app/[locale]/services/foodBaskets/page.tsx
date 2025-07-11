@@ -17,7 +17,8 @@ export default function FoodBaskets() {
 
 
                     <div className=" container flex flex-col w-full  justify-center items-center">
-                       
+                    <h2 className="text-[#001F15] text-[20px] font-[600] ">السلة الغذائية</h2>
+                    <h2 className="text-[#444444] text-[16px] font-[300] mb-5 ">املا النموذج ادناه للتقديم على السلة الغذائية الخالية من الجلوتين</h2>
                         <FoodBasketsForm />
                     </div>
                 </div>
