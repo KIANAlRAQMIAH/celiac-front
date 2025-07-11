@@ -14,9 +14,9 @@ export default function AboutUsHeader({ data }: any) {
           </p>
         </div>
         <Image
-          className="w-[100%] max-h-[649px] mt-[40px] object-cover"
-          width={300}
-          height={6000}
+          className="w-[100%] max-h-[649px] mt-[40px] object-contain"
+          width={1000}
+          height={1000}
           src={data?.about_image}
           alt=""
         />
