@@ -23,7 +23,7 @@ function MyReservations() {
                     <Map />
                 </div>
             </div>
-            <div className="grid grid-cols-3 gap-5 my-[40px]">
+            <div className="grid grid-cols-2 gap-5 my-[40px]">
                 <div className="p-[16px] hover:text-[#FFF] transition contact-card hover:bg-[#019867] boder-solid border-[1px] border-[#019867] rounded-[16px] flex justify-center items-center gap-3">
                     <div className="bg-[#0198671A] icon-bg rounded-[50%] transition w-[120px] h-[120px] flex flex-col justify-center items-center">
                         <FaLocationDot color="#019867" size={45} />
@@ -38,17 +38,9 @@ function MyReservations() {
                         <FaLocationDot color="#019867" size={45} />
                     </div>
                     <div className="">
-                        <p className="text-[#001F15] text-[20px] transition font-[600]">يمكنك ايجادنا فى</p>
-                        <p className="text-[#45534E] text-[16px] font-[400] transition">حي العليا _ شارع موسى بن نصير _ مبنى 9</p>
-                    </div>
-                </div>
-                <div className="p-[16px] hover:text-[#FFF] transition contact-card hover:bg-[#019867] boder-solid border-[1px] border-[#019867] rounded-[16px] flex justify-center items-center gap-3">
-                    <div className="bg-[#0198671A] icon-bg rounded-[50%] transition w-[120px] h-[120px] flex flex-col justify-center items-center">
-                        <FaLocationDot color="#019867" size={45} />
-                    </div>
-                    <div className="">
-                        <p className="text-[#001F15] text-[20px] transition font-[600]">يمكنك ايجادنا فى</p>
-                        <p className="text-[#45534E] text-[16px] font-[400] transition">حي العليا _ شارع موسى بن نصير _ مبنى 9</p>
+                        <p className="text-[#001F15] text-[20px] transition font-[600]">معلومات التواصل الرسمية مع الجمعيه</p>
+                        <p className="text-[#45534E] text-[16px] font-[400] transition">0114606055 , 0112273141</p>
+                        <p className="text-[#45534E] text-[16px] font-[400] transition"> الجوال وواتساب , 0554885955</p>
                     </div>
                 </div>
             </div>

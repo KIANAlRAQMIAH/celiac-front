@@ -72,7 +72,7 @@ const DonationCard = () => {
         <div className="grid grid-cols-3 gap-4">
             {data?.data?.map((item: any) => (
                 <div key={item?.id} className="rounded-b-[12px] shadow-sm transition hover:shadow-lg  rounded-t-[12px] flex flex-col gap-1 w-full bg-[#FFF]">
-                    <Image width={100} className="w-full object-contain h-[300px] rounded-t-[12px]" height={200} src={item?.image?.url} alt="" />
+                    <Image width={1000} className="w-full object-contain h-[300px] rounded-t-[12px]" height={1000} src={item?.image?.url} alt="" />
                     <div className="flex flex-col w-full gap-2 px-[12px] py-[24px]">
                         {item?.destination_name && <p className="bg-[#0198671A] text-[#019867] w-max rounded-[20px] px-[12px] py-[4px]">{item?.destination_name}</p>}
                         <p className="text-[#001F15] text-[16px] font-[600]">{item?.name} </p>
