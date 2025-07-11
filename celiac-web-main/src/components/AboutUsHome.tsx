@@ -34,8 +34,8 @@ function AboutHome({ data }: any) {
           <Image
             className="w-[80%] first-letter: rounded-[16px]"
             src={data?.about_settings.about_image}
-            width={100}
-            height={100}
+            width={600}
+            height={600}
             alt="homeAboutImage"
           />
         </div>

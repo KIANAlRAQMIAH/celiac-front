@@ -21,7 +21,7 @@ function HeaderSwiper({ data }: any) {
         <Carousel.Slide key={banner.id} >
           <Link href={banner?.url ? banner?.url : '/'}>
             <div >
-              <Image fill src={banner?.image?.url} alt={`swiperImage${index + 1}`} />
+              <Image className="w-full h-full object-contain" fill src={banner?.image?.url} alt={`swiperImage${index + 1}`} />
             </div>
           </Link>
         </Carousel.Slide>
