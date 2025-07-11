@@ -136,7 +136,7 @@ const BookStepper = ({ BookAnAppointment }: Props) => {
   //   setSelectedClinicData({ clinic_id: id, clinicName, clinicAddress });
   //   nextStep();
   // };
-
+console.log(data?.data)
   return (
     <div className="py-[20px]">
       <Stepper size="xs" active={active} onStepClick={setActive}>
