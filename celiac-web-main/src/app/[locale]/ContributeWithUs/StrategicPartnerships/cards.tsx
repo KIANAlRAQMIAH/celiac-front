@@ -27,7 +27,7 @@ const Cards = () => {
                         ))}
                     </ul>
                     {false && <div className="bg-[#F9FAFB] p-[35px] w-full flex justify-center items-center">
-                        <Link className=" rounded-[50px] w-[80%]" href='en/ContributeWithUs/Memberships/joinMembership'><button className="rounded-[50px] bg-[#019867] p-[15px] text-[#FFF] w-[100%]">انضم الآن</button></Link>
+                        <Link className=" rounded-[50px] w-[80%]" href='ar/ContributeWithUs/Memberships/joinMembership'><button className="rounded-[50px] bg-[#019867] p-[15px] text-[#FFF] w-[100%]">انضم الآن</button></Link>
                     </div>}
                 </div>
             ))}

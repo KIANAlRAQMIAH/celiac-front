@@ -5,7 +5,7 @@ import FoodBasketsForm from "./_components/foodBasketForm";
 export default function FoodBaskets() {
     const t = useTranslations("Index");
     const breadcrumbData = [
-        { title: "الرئيسية", link: "/en" },
+        { title: "الرئيسية", link: "/" },
         { title: "الخدمات", link: "/ar/services" },
         { title: "السلال الغذائية", link: "/ar/services/foodBaskets" }
     ];

@@ -4,7 +4,7 @@ import RecrutementForm from "./_components/recrutementForm";
 export default function Recrutement() {
   const t = useTranslations("Index");
   const breadcrumbData = [
-    { title: "الرئيسية", link: "/en" },
+    { title: "الرئيسية", link: "/" },
     { title: "الخدمات", link: "/ar/services" },
     { title: "بطاقة سلياكي", link: "/ar/services/recrutment" }
   ];

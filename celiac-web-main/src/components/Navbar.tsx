@@ -82,7 +82,7 @@ function Navbar() {
                 <ul className="flex items-center gap-6 text-sm rtl:gap-6">
                   <li >
                     <Link
-                      className={`${pathname === "/en"
+                      className={`${pathname === "/ar"
                         ? "font-extrabold text-green-600"
                         : "text-black"
                         }`}
