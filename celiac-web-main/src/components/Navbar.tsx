@@ -23,7 +23,16 @@ function Navbar() {
   const [logout, { isLoading, isSuccess }] = useLogoutMutation();
   const userToken = useSelector((state: any) => state.Model.userLogin);
   const pathname = usePathname();
-  const { data: cartData } = useGetCartQuery();
+
+  const token = localStorage.getItem('celiacToken')
+
+
+ 
+const { data: cartData } = useGetCartQuery(undefined, {
+  skip: !token, 
+  
+});
+
   console.log(cartData)
   const toggleDropdown = () => {
     setIsOpen(!isOpen);
