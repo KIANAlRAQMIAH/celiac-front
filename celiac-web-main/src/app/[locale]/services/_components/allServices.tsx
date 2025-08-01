@@ -28,8 +28,6 @@ interface ICommittee {
 }
 
 function AllServices() {
-    const { data, isLoading, error } = useGetCommitteesQuery();
-    const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
     const servicesData = [
         {
             icon: Cicon,
